@@ -83,7 +83,9 @@ class VideoExporter @Inject constructor(
         var muxer: MediaMuxer? = null
         var frameBitmap: Bitmap? = null
         var currentAudioData: ByteArray? = null
+        var currentAudioData: ByteArray? = null
         var currentAudioPosition = 0
+        var muxerStarted = false
         
         try {
             val (width, height) = calculateDimensions(resolution, aspectRatio)
@@ -126,7 +128,7 @@ class VideoExporter @Inject constructor(
             
             var videoTrackIndex = -1
             var audioTrackIndex = -1
-            var muxerStarted = false
+
             
             // Helper to start muxer if ready
             fun checkMuxerStart() {
@@ -325,8 +327,8 @@ class VideoExporter @Inject constructor(
             canvas = canvas,
             scene = scene,
             assets = assets,
-            handBitmap = bitmaps.handBitmaps[scene.projectId],
-            backgroundBitmap = bitmaps.backgroundBitmaps[scene.projectId],
+            handBitmap = bitmaps.sceneHandBitmaps[scene.id],
+            backgroundBitmap = bitmaps.sceneBackgroundBitmaps[scene.id],
             assetBitmaps = bitmaps.assetBitmaps,
             progress = progress,
             width = width,
@@ -580,6 +582,13 @@ class VideoExporter @Inject constructor(
         }
     }
 }
+
+data class WavInfo(
+    val sampleRate: Int,
+    val channels: Int,
+    val bitsPerSample: Int,
+    val dataOffset: Int
+)
 
 
 /**

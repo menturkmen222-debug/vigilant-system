@@ -1,0 +1,27 @@
+{
+    "name": "Android App Development",
+    "image": "mcr.microsoft.com/devcontainers/universal:2",
+    "features": {
+        "ghcr.io/devcontainers/features/java:1": {
+            "version": "17",
+            "jdkDistro": "ms",
+            "gradleVersion": "latest"
+        },
+        "ghcr.io/devcontainers-contrib/features/android-commandline-tools:1": {
+            "latest": true,
+            "install_cmdline_tools": true,
+            "install_platform_tools": true,
+            "packages": "platforms;android-35,build-tools;35.0.0"
+        }
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "vscjava.vscode-java-pack",
+                "mathiasfrohlich.Kotlin",
+                "adelphes.android-dev-ext"
+            ]
+        }
+    },
+    "postCreateCommand": "sudo apt-get update && echo 'Ready to build! Run ./gradlew assembleDebug'"
+}

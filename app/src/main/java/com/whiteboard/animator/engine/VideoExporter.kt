@@ -579,6 +579,7 @@ class VideoExporter @Inject constructor(
             return null
         }
     }
+}
 
 
 /**

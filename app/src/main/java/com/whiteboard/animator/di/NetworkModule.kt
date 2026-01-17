@@ -1,6 +1,6 @@
 package com.whiteboard.animator.di
 
-import com.jakewharton.retrofit2.converter.kotlinx.serialization.asConverterFactory
+import retrofit2.converter.kotlinx.serialization.asConverterFactory
 import com.whiteboard.animator.data.network.AiService
 import com.whiteboard.animator.data.preferences.PreferenceManager
 import com.whiteboard.animator.data.common.ApiKeyManager

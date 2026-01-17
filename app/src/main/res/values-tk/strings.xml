@@ -181,7 +181,7 @@
     <string name="cd_pause_button">Görüşi duruz</string>
     <string name="cd_add_scene">Täze sahna goş</string>
     <string name="cd_delete_scene">Sahnany poz</string>
-    <string name="cd_scene_card">Sahna %d: %s</string>
+    <string name="cd_scene_card">Sahna %1$d: %2$s</string>
     <string name="cd_asset_item">Asset: %s</string>
     <string name="cd_close">Ýap</string>
     <string name="cd_back">Yza gaýt</string>

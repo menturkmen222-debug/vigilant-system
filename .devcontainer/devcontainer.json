@@ -24,4 +24,5 @@
         }
     },
     "postCreateCommand": "sudo apt-get update && echo 'Ready to build! Run ./gradlew assembleDebug'"
+
 }

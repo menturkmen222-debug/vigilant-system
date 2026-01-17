@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary brand colors -->
+    <color name="primary">#1565C0</color>
+    <color name="primary_variant">#0D47A1</color>
+    <color name="on_primary">#FFFFFF</color>
+    
+    <!-- Secondary colors -->
+    <color name="secondary">#FF6F00</color>
+    <color name="secondary_variant">#E65100</color>
+    <color name="on_secondary">#FFFFFF</color>
+    
+    <!-- Background and surface -->
+    <color name="background">#FAFAFA</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="on_background">#1C1B1F</color>
+    <color name="on_surface">#1C1B1F</color>
+    
+    <!-- Error colors -->
+    <color name="error">#B3261E</color>
+    <color name="on_error">#FFFFFF</color>
+    
+    <!-- Splash screen -->
+    <color name="splash_background">#FFFFFF</color>
+    
+    <!-- Whiteboard specific colors -->
+    <color name="whiteboard_background">#FEFEFE</color>
+    <color name="chalkboard_background">#2E4A3E</color>
+    <color name="paper_background">#FFF8E1</color>
+    
+    <!-- Drawing colors -->
+    <color name="draw_black">#212121</color>
+    <color name="draw_blue">#1976D2</color>
+    <color name="draw_red">#D32F2F</color>
+    <color name="draw_green">#388E3C</color>
+    <color name="draw_orange">#F57C00</color>
+    
+    <!-- Mode indicator colors -->
+    <color name="mode_offline">#43A047</color>
+    <color name="mode_online">#1E88E5</color>
+    
+    <!-- Launcher icon background -->
+    <color name="ic_launcher_background">#1565C0</color>
+</resources>

@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Whiteboard Animator Pro</string>
+    
+    <!-- Common actions -->
+    <string name="action_create">Yaratish</string>
+    <string name="action_save">Saqlash</string>
+    <string name="action_cancel">Bekor qilish</string>
+    <string name="action_delete">O\'chirish</string>
+    <string name="action_edit">Tahrirlash</string>
+    <string name="action_export">Eksport</string>
+    <string name="action_preview">Ko\'rish</string>
+    <string name="action_share">Ulashish</string>
+    <string name="action_settings">Sozlamalar</string>
+    <string name="action_retry">Qayta urinish</string>
+    <string name="action_done">Tayyor</string>
+    
+    <!-- Home screen -->
+    <string name="home_title">Mening loyihalarim</string>
+    <string name="home_empty_title">Hozircha loyihalar yo\'q</string>
+    <string name="home_empty_subtitle">Birinchi doskada animatsiya videosini yarating</string>
+    <string name="home_new_project">Yangi loyiha</string>
+    <string name="home_search_hint">Loyihalarni qidirish…</string>
+    <string name="home_templates">Shablonlar</string>
+    
+    <!-- Project creation -->
+    <string name="create_project_title">Yangi loyiha</string>
+    <string name="create_project_name_hint">Loyiha nomi</string>
+    <string name="create_project_name_default">Nomsiz loyiha</string>
+    
+    <!-- Script input -->
+    <string name="script_title">Ssenariyni kiriting</string>
+    <string name="script_hint">Ssenariyni bu yerga yozing yoki joylashtiring…\n\nMaslahat: Sahnalarni avtomatik ajratish uchun paragraflardan foydalaning.</string>
+    <string name="script_auto_generate">Avtomatik video yaratish</string>
+    <string name="script_scenes_count">%d ta sahna aniqlandi</string>
+    <string name="script_tip_title">Tez maslahatlar</string>
+    <string name="script_tip_content">• Ikki qator bo\'shliq sahna ajratishni yaratadi\n• Har bir paragraf sahna bo\'ladi\n• Paragraflar topilmasa, gaplar bo\'linadi</string>
+    
+    <!-- Generation progress -->
+    <string name="generation_title">Videongiz yaratilmoqda</string>
+    <string name="generation_step_splitting">Ssenariy tahlil qilinmoqda va sahnalar yaratilmoqda…</string>
+    <string name="generation_step_illustrations">Illyustratsiyalar yaratilmoqda…</string>
+    <string name="generation_step_voiceover">Ovoz yozuvi yaratilmoqda…</string>
+    <string name="generation_step_timeline">Vaqt chizig\'i yig\'ilmoqda…</string>
+    <string name="generation_complete">Yaratish tugallandi!</string>
+    <string name="generation_error">Yaratish muvaffaqiyatsiz: %s</string>
+    
+    <!-- Timeline editor -->
+    <string name="editor_title">Vaqt chizig\'ini tahrirlash</string>
+    <string name="editor_add_scene">Sahna qo\'shish</string>
+    <string name="editor_scene_number">%d-sahna</string>
+    <string name="editor_duration">%d sek</string>
+    <string name="editor_assets">Aktivlar</string>
+    <string name="editor_voiceover">Ovoz yozuvi</string>
+    <string name="editor_background">Fon</string>
+    <string name="editor_text">Matn</string>
+    
+    <!-- Scene editing -->
+    <string name="scene_edit_title">Sahnani tahrirlash</string>
+    <string name="scene_text_label">Sahna matni</string>
+    <string name="scene_duration_label">Davomiyligi: %d soniya</string>
+    <string name="scene_tts_speed_label">TTS tezligi: %.1fx</string>
+    
+    <!-- Canvas editor -->
+    <string name="canvas_title">Kanvas muharriri</string>
+    <string name="canvas_draw">Chizish</string>
+    <string name="canvas_shapes">Shakllar</string>
+    <string name="canvas_text">Matn</string>
+    <string name="canvas_eraser">O\'chirgich</string>
+    <string name="canvas_undo">Bekor qilish</string>
+    <string name="canvas_redo">Qayta qilish</string>
+    <string name="canvas_clear">Tozalash</string>
+    <string name="canvas_zoom">Kattalashtirish</string>
+    
+    <!-- Asset library -->
+    <string name="assets_title">Aktivlar kutubxonasi</string>
+    <string name="assets_tab_doodles">Chizgilar</string>
+    <string name="assets_tab_hands">Qo\'llar</string>
+    <string name="assets_tab_backgrounds">Fonlar</string>
+    <string name="assets_tab_people">Odamlar</string>
+    <string name="assets_tab_icons">Ikonkalar</string>
+    <string name="assets_tab_my_images">Mening rasmlarim</string>
+    <string name="assets_import">Rasm import qilish</string>
+    
+    <!-- Preview -->
+    <string name="preview_title">Ko\'rib chiqish</string>
+    <string name="preview_play">Ijro</string>
+    <string name="preview_pause">Pauza</string>
+    
+    <!-- Export -->
+    <string name="export_title">Videoni eksport qilish</string>
+    <string name="export_resolution">Ruxsat</string>
+    <string name="export_resolution_480p">480p SD</string>
+    <string name="export_resolution_720p">720p HD</string>
+    <string name="export_resolution_1080p">1080p Full HD</string>
+    <string name="export_aspect_ratio">Tomonlar nisbati</string>
+    <string name="export_aspect_16_9">16:9 Gorizontal</string>
+    <string name="export_aspect_9_16">9:16 Vertikal</string>
+    <string name="export_aspect_1_1">1:1 Kvadrat</string>
+    <string name="export_format">Format</string>
+    <string name="export_format_mp4">MP4 Video</string>
+    <string name="export_format_gif">GIF Animatsiya</string>
+    <string name="export_format_png">PNG Ketma-ketligi</string>
+    <string name="export_fps">Kadr tezligi: %d FPS</string>
+    <string name="export_start">Eksportni boshlash</string>
+    <string name="export_progress">Eksport qilinmoqda… %d%%</string>
+    <string name="export_success">Eksport tugallandi!</string>
+    <string name="export_success_message">Video saqlandi:\n%s</string>
+    <string name="export_error">Eksport muvaffaqiyatsiz: %s</string>
+    <string name="export_presets">Tez sozlamalar</string>
+    <string name="export_preset_youtube">YouTube</string>
+    <string name="export_preset_tiktok">TikTok</string>
+    <string name="export_preset_instagram">Instagram</string>
+    
+    <!-- Settings -->
+    <string name="settings_title">Sozlamalar</string>
+    <string name="settings_mode">Yaratish rejimi</string>
+    <string name="settings_mode_offline">Oflayn rejim</string>
+    <string name="settings_mode_offline_desc">Barcha ishlov berish mahalliy. Internetsiz ishlaydi.</string>
+    <string name="settings_mode_online">Onlayn rejim</string>
+    <string name="settings_mode_online_desc">AIga asoslangan yaratish yaxshi natijalar bilan. Internet kerak.</string>
+    <string name="settings_theme">Mavzu</string>
+    <string name="settings_theme_system">Tizimga mos</string>
+    <string name="settings_theme_light">Yorug\'</string>
+    <string name="settings_theme_dark">Qorong\'u</string>
+    <string name="settings_voice">Standart ovoz</string>
+    <string name="settings_export_quality">Standart eksport sifati</string>
+    <string name="settings_api_keys">API kalitlari (Onlayn rejim)</string>
+    <string name="settings_api_keys_desc">AI xususiyatlari uchun API kalitlarini sozlang</string>
+    <string name="settings_huggingface_key">Hugging Face API kaliti</string>
+    <string name="settings_elevenlabs_key">ElevenLabs API kaliti</string>
+    <string name="settings_api_key_hint">API kalitingizni kiriting…</string>
+    <string name="settings_api_instructions">Bepul API kalitlarini oling:\n• Hugging Face: huggingface.co\n• ElevenLabs: elevenlabs.io</string>
+    <string name="settings_storage">Xotira</string>
+    <string name="settings_storage_used">Ishlatilgan: %s</string>
+    <string name="settings_clear_cache">Keshni tozalash</string>
+    <string name="settings_about">Haqida</string>
+    <string name="settings_version">Versiya %s</string>
+    <string name="settings_privacy">Maxfiylik siyosati</string>
+    <string name="settings_licenses">Ochiq kodli litsenziyalar</string>
+    
+    <!-- Onboarding -->
+    <string name="onboarding_welcome_title">Whiteboard Animator Pro-ga xush kelibsiz</string>
+    <string name="onboarding_welcome_desc">Bir necha daqiqada professional doskada animatsiya videolarini yarating</string>
+    <string name="onboarding_script_title">Ssenariyingizdan boshlang</string>
+    <string name="onboarding_script_desc">Matnni kiriting yoki joylashtiring va biz avtomatik animatsiyali sahnalar yaratamiz</string>
+    <string name="onboarding_edit_title">Hamma narsani sozlang</string>
+    <string name="onboarding_edit_desc">Vaqtni sozlang, aktivlar qo\'shing, kanvasga chizing va har bir tafsilotni mukammallashtiring</string>
+    <string name="onboarding_export_title">Ijodingizni ulashing</string>
+    <string name="onboarding_export_desc">YouTube, TikTok, Instagram va boshqalar uchun HD sifatida eksport qiling</string>
+    <string name="onboarding_get_started">Boshlash</string>
+    <string name="onboarding_skip">O\'tkazib yuborish</string>
+    <string name="onboarding_next">Keyingi</string>
+    
+    <!-- Mode indicators -->
+    <string name="mode_offline">OFLAYN</string>
+    <string name="mode_online">ONLAYN</string>
+    <string name="mode_offline_indicator">Oflayn ishlash</string>
+    <string name="mode_online_indicator">AI-kuchaytirilgan rejim</string>
+    
+    <!-- Errors and warnings -->
+    <string name="error_no_internet">Internet aloqasi yo\'q. Oflayn rejimga o\'tilmoqda.</string>
+    <string name="error_api_quota">API kvotasi tugadi. Oflayn zaxiradan foydalanilmoqda.</string>
+    <string name="error_low_storage">Xotira kam. Davom ettirish uchun %s bo\'shatib oling.</string>
+    <string name="error_generation_failed">Yaratish muvaffaqiyatsiz. Iltimos, qayta urinib ko\'ring.</string>
+    <string name="error_export_failed">Eksport muvaffaqiyatsiz. Iltimos, qayta urinib ko\'ring.</string>
+    <string name="error_tts_unavailable">Matndan nutqqa bu qurilmada mavjud emas.</string>
+    <string name="error_unknown">Kutilmagan xatolik yuz berdi.</string>
+    <string name="warning_long_export">Bu eksport bir necha daqiqa davom etishi mumkin. Ilovani ochiq holda qoldiring.</string>
+    <string name="warning_battery_low">Batareya kam. Eksportdan oldin quvvatlashni ko\'rib chiqing.</string>
+    
+    <!-- Delete confirmation -->
+    <string name="delete_project_title">Loyihani o\'chirish?</string>
+    <string name="delete_project_message">Bu \"%s\" va barcha ma\'lumotlarini butunlay o\'chiradi. Bu amalni bekor qilib bo\'lmaydi.</string>
+    <string name="delete_scene_title">Sahnani o\'chirish?</string>
+    <string name="delete_scene_message">Bu sahnani vaqt chizig\'idan olib tashlaydi.</string>
+    
+    <!-- Accessibility -->
+    <string name="cd_project_thumbnail">Loyiha eskiz</string>
+    <string name="cd_play_button">Ko\'rib chiqishni ijro qilish</string>
+    <string name="cd_pause_button">Ko\'rib chiqishni to\'xtatish</string>
+    <string name="cd_add_scene">Yangi sahna qo\'shish</string>
+    <string name="cd_delete_scene">Sahnani o\'chirish</string>
+    <string name="cd_scene_card">%d-sahna: %s</string>
+    <string name="cd_asset_item">Aktiv: %s</string>
+    <string name="cd_close">Yopish</string>
+    <string name="cd_back">Orqaga qaytish</string>
+    <string name="cd_settings">Sozlamalarni ochish</string>
+    <string name="cd_mode_indicator">Joriy rejim: %s</string>
+    <!-- Character Manager -->
+    <string name="character_manager_title">Belgi Havolalari</string>
+    <string name="character_empty_title">Belgi Mavjud Emas</string>
+    <string name="character_empty_desc">Sahnadan sahnaga barqarorlik uchun belgilar qo\'shing</string>
+    <string name="character_add_button">Belgi Qo\'shish</string>
+    <string name="character_add_new">Yangi Belgi Qo\'shish</string>
+    <string name="character_delete_title">Belgini O\'chirish?</string>
+    <string name="character_delete_message">"%s" loyihadan o\'chirilsinmi?</string>
+    <string name="character_add_dialog_title">Belgi Havolasini Qo\'shish</string>
+    <string name="character_input_name">Belgi Nomi</string>
+    <string name="character_input_type">Turi</string>
+    <string name="character_input_desc">Tavsif (AI uchun)</string>
+    <string name="character_input_desc_hint">Masalan: Ko\'k ko\'zli do\'stona robot</string>
+    <string name="character_add_photo">Rasm Qo\'shish</string>
+    
+    <string name="character_type_person">Shaxs</string>
+    <string name="character_type_animal">Hayvon</string>
+    <string name="character_type_object">Buyum</string>
+    <string name="character_type_mascot">Talisman</string>
+    <string name="character_type_other">Boshqa</string>
+
+    <string name="cd_delete">O\'chirish</string>
+    <string name="cd_add_photo">Rasm qo\'shish</string>
+
+    <!-- Developer Info -->
+    <string name="developer_label">Yaratuvchi</string>
+    <string name="developer_name">Allaşükür Ýowyýew</string>
+    <string name="developer_region_label">Joylashuv</string>
+    <string name="developer_region">Turkmenistan, Daşoguz, Gorogly</string>
+</resources>

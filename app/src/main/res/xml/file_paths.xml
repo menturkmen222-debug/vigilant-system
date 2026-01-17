@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <!-- Exported videos in Movies directory -->
+    <external-files-path
+        name="exports"
+        path="Movies/WhiteboardAnimator/" />
+    
+    <!-- Cache for temporary files -->
+    <cache-path
+        name="cache"
+        path="." />
+    
+    <!-- Internal app files -->
+    <files-path
+        name="projects"
+        path="projects/" />
+    
+    <!-- External files root -->
+    <external-files-path
+        name="external_files"
+        path="." />
+</paths>

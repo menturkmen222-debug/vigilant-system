@@ -105,7 +105,7 @@ private fun SearchBar(
         placeholder = { Text(stringResource(R.string.home_search_hint)) },
         leadingIcon = { Icon(Icons.Default.Search, contentDescription = null) },
         singleLine = true,
-        shape = MaterialTheme.shapes.full
+        shape = androidx.compose.foundation.shape.CircleShape
     )
 }
 

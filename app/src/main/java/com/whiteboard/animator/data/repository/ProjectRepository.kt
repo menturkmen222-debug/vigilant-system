@@ -262,6 +262,32 @@ class ProjectRepository @Inject constructor(
     }
     
     // ============================================================================
+    // DRAWING OPERATIONS
+    // ============================================================================
+
+    /**
+     * Add a drawing path to a scene.
+     */
+    suspend fun addDrawingPath(
+        sceneId: Long,
+        points: List<PathPoint>,
+        color: Int,
+        strokeWidth: Float,
+        orderIndex: Int
+    ): Long {
+         val path = DrawingPath(
+             sceneId = sceneId,
+             points = points,
+             color = color,
+             strokeWidth = strokeWidth,
+             orderIndex = orderIndex
+         )
+         val id = drawingPathDao.insertPath(path)
+         projectDao.updateTimestamp(sceneDao.getScene(sceneId)?.projectId ?: return id)
+         return id
+    }
+
+    // ============================================================================
     // ASSET OPERATIONS
     // ============================================================================
     

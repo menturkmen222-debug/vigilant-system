@@ -180,7 +180,7 @@
     <string name="cd_pause_button">Pause preview</string>
     <string name="cd_add_scene">Add new scene</string>
     <string name="cd_delete_scene">Delete scene</string>
-    <string name="cd_scene_card">Scene %d: %s</string>
+    <string name="cd_scene_card">Scene %1$d: %2$s</string>
     <string name="cd_asset_item">Asset: %s</string>
     <string name="cd_close">Close</string>
     <string name="cd_back">Go back</string>
